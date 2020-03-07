@@ -60,3 +60,6 @@ subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master 
 
 ```
 
+### Contribute
+
+Feel free to fork and raise PR with sensible commit & change description
