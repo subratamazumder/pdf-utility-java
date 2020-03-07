@@ -51,7 +51,7 @@ Adding Onsite_195881_January2019.pdf
 /Users/subratamazumder/workspace/Payslips/2020-03-07-23-40-10-Auto-Merged.pdf created successfully :) :)
 Total no of pdf files-15
 Total no of files merged-15
-Total no of files ignored-0
+Total no of files ignored-1
 
 *************************************************************
 
