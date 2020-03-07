@@ -4,9 +4,12 @@ But using online pdf joiner may not safe and could cause fraud in future.
 Hence this little java utility can be used locally to merge many pdf files into one file.
 ## Usage
 ```console
+git clone https://github.com/subratamazumder/pdf-utility-java.git
+
+cd pdf-utility-java
+
 ./gradlew clean build jar
 
-```console
 java -jar pdf-utility-1.0-SNAPSHOT.jar /mydire/which/has/pdffiles
 ```
 
