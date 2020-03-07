@@ -37,6 +37,7 @@ Adding 195881_May2019.pdf
 Adding 195881_August2019.pdf
 Adding 195881_January2020.pdf
 Adding 195881_September2019.pdf
+Ignoring !!! 2020-03-07-23-39-05-Auto-Merged.pdf
 Adding 195881_June2019.pdf
 Adding 195881_April2019.pdf
 Adding Onsite_195881_January2019.pdf
@@ -44,7 +45,7 @@ Adding Onsite_195881_January2019.pdf
 
 ************************* SUMMARY ****************************
 
-/Users/subratamazumder/workspace/Payslips/2020-03-07-23-39-05-Auto-Merged.pdf created successfully :) :)
+/Users/subratamazumder/workspace/Payslips/2020-03-07-23-40-10-Auto-Merged.pdf created successfully :) :)
 Total no of pdf files-15
 Total no of files merged-15
 Total no of files ignored-0
