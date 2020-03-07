@@ -4,14 +4,39 @@ plugins {
 
 group 'subrata-poc'
 version '1.0-SNAPSHOT'
-
+def pdfBoxVersion = '2.0.19'
 sourceCompatibility = 1.8
+
+configurations {
+    // configuration that holds jars to include in the jar
+    extraLibs
+}
+
+jar {
+    from {
+        configurations.extraLibs.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    manifest {
+        attributes(
+                'Created-By': 'Subrata Mazumder @ https://subratamazumder.github.io',
+                'Implementation-Title': 'PDF Merge Utility utilising apache pdfbox '+ pdfBoxVersion,
+                'Implementation-Version': version,
+                'Implementation-URL': 'https://github.com/subratamazumder/pdf-utility-java',
+                'Main-Class': 'com.subrata.poc.pdf.Merger'
+
+
+        )
+    }
+}
+
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile group: 'org.apache.pdfbox', name: 'pdfbox', version: '2.0.19'
+    extraLibs group: 'org.apache.pdfbox', name: 'pdfbox', version: pdfBoxVersion
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.23.0'
+    configurations.compile.extendsFrom(configurations.extraLibs)
 }
