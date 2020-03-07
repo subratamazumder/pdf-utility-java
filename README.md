@@ -12,7 +12,8 @@ cd pdf-utility-java
 
 java -jar pdf-utility-1.0-SNAPSHOT.jar /mydire/which/has/pdffiles
 ```
-
+### Demo
+![](demo.gif)
 ### Sample Output
 
 ```console
