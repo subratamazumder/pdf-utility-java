@@ -15,7 +15,16 @@ BUILD SUCCESSFUL in 3s
 subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ● 
 
 
-subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ●  java -jar build/libs/pdf-utility-1.0-SNAPSHOT.jar
+ subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master  java -jar build/libs/pdf-utility-1.0-SNAPSHOT.jar   /Users/subratamazumder/workspace/Payslips
+
+
+************************* Welcome To PDF Merging Utility ****************************
+
+Developed by Subrata Mazumder @ https://subratamazumder.github.io
+
+Reading directory /Users/subratamazumder/workspace/Payslips
+
+
 Adding 195881_February2019.pdf
 Adding 195881_October2019.pdf
 Adding 195881_December2019.pdf
@@ -28,8 +37,6 @@ Adding 195881_May2019.pdf
 Adding 195881_August2019.pdf
 Adding 195881_January2020.pdf
 Adding 195881_September2019.pdf
-Ignoring !!!2020-03-07-21-41-30-Auto-Merged.pdf
-Ignoring !!!2020-03-07-21-43-49-Auto-Merged.pdf
 Adding 195881_June2019.pdf
 Adding 195881_April2019.pdf
 Adding Onsite_195881_January2019.pdf
@@ -37,14 +44,14 @@ Adding Onsite_195881_January2019.pdf
 
 ************************* SUMMARY ****************************
 
-2020-03-07-21-47-53-Auto-Merged.pdf created successfully :) :)
-Total no of pdf files-17
+/Users/subratamazumder/workspace/Payslips/2020-03-07-23-39-05-Auto-Merged.pdf created successfully :) :)
+Total no of pdf files-15
 Total no of files merged-15
-Total no of files ignored-2
+Total no of files ignored-0
 
 *************************************************************
 
-Total Execution Time (ms)-378
- subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ● 
+Total Execution Time (ms)-357
+ subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master 
 ```
 
