@@ -3,21 +3,21 @@ Very often we need to merge sensitive pdf files (e.g.; payslips, tax return, med
 But using online pdf joiner may not safe and could cause fraud in future.
 Hence this little java utility can be used locally to merge many pdf files into one file.
 ## Usage
-```./gradlew clean build jar
-```java -jar pdf-utility-1.0-SNAPSHOT.jar
+```console
+./gradlew clean build jar
 
-Sample Output
+```console
+java -jar pdf-utility-1.0-SNAPSHOT.jar /mydire/which/has/pdffiles
 ```
-subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ●  ./gradlew clean build jar
 
+### Sample Output
+
+```console
+subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ●  ./gradlew clean build jar
 BUILD SUCCESSFUL in 3s
 3 actionable tasks: 3 executed
 subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ● 
-
-
- subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master  java -jar build/libs/pdf-utility-1.0-SNAPSHOT.jar   /Users/subratamazumder/workspace/Payslips
-
-
+subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master  java -jar build/libs/pdf-utility-1.0-SNAPSHOT.jar   /Users/subratamazumder/workspace/Payslips
 ************************* Welcome To PDF Merging Utility ****************************
 
 Developed by Subrata Mazumder @ https://subratamazumder.github.io
@@ -53,6 +53,7 @@ Total no of files ignored-0
 *************************************************************
 
 Total Execution Time (ms)-357
- subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master 
+subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master 
+
 ```
 
