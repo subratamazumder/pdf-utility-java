@@ -29,22 +29,20 @@ Developed by Subrata Mazumder @ https://subratamazumder.github.io
 Reading directory /Users/subratamazumder/workspace/Payslips
 
 
-Adding 195881_February2019.pdf
-Adding 195881_October2019.pdf
-Adding 195881_December2019.pdf
-Adding 195881_February2020.pdf
-Adding 195881_March2019.pdf
-Adding Onsite_195881_February2019.pdf
-Adding 195881_July2019.pdf
-Adding 195881_November2019.pdf
-Adding 195881_May2019.pdf
-Adding 195881_August2019.pdf
-Adding 195881_January2020.pdf
-Adding 195881_September2019.pdf
+Adding 00000_February2019.pdf
+Adding 00000_October2019.pdf
+Adding 00000_December2019.pdf
+Adding 00000_February2020.pdf
+Adding 00000_March2019.pdf
+Adding 00000_July2019.pdf
+Adding 00000_November2019.pdf
+Adding 00000_May2019.pdf
+Adding 00000_August2019.pdf
+Adding 00000_January2020.pdf
+Adding 00000_September2019.pdf
 Ignoring !!! 2020-03-07-23-39-05-Auto-Merged.pdf
-Adding 195881_June2019.pdf
-Adding 195881_April2019.pdf
-Adding Onsite_195881_January2019.pdf
+Adding 00000_June2019.pdf
+Adding 00000_April2019.pdf
 
 
 ************************* SUMMARY ****************************
