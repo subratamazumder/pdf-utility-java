@@ -48,8 +48,8 @@ Adding 00000_April2019.pdf
 ************************* SUMMARY ****************************
 
 /Users/subratamazumder/workspace/Payslips/2020-03-07-23-40-10-Auto-Merged.pdf created successfully :) :)
-Total no of pdf files-15
-Total no of files merged-15
+Total no of pdf files-14
+Total no of files merged-13
 Total no of files ignored-1
 
 *************************************************************
