@@ -10,7 +10,7 @@ cd pdf-utility-java
 
 ./gradlew clean build jar
 
-java -jar pdf-utility-1.0-SNAPSHOT.jar /mydire/which/has/pdffiles
+java -jar pdf-utility-1.0-SNAPSHOT.jar /my/directory/which/has/pdffiles
 ```
 ### Demo
 TBC
