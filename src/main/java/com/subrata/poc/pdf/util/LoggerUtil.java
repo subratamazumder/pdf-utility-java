@@ -1,4 +1,4 @@
-package com.subrata.poc.pdf;
+package com.subrata.poc.pdf.util;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

@@ -23,9 +23,7 @@ jar {
                 'Implementation-Title': 'PDF Merge Utility utilising apache pdfbox '+ pdfBoxVersion,
                 'Implementation-Version': version,
                 'Implementation-URL': 'https://github.com/subratamazumder/pdf-utility-java',
-                'Main-Class': 'com.subrata.poc.pdf.Merger'
-
-
+                'Main-Class': 'com.subrata.poc.pdf.Main'
         )
     }
 }

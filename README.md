@@ -1,7 +1,7 @@
 # pdf-utility-java
-Very often we need to merge sensitive pdf files (e.g.; payslips, tax return, medical report etc) into one big pdf for easy upload. 
-But using online pdf joiner may not be safe and could cause fraud in future.
-Hence this little java utility can be used locally to merge many pdf files into one file.
+Very often we need to decrypt & merge sensitive pdf files (e.g.; payslips, tax return, medical report etc) into one big pdf for easy upload. 
+But using online pdf decrypter or joiner may not be safe and could cause fraud in the future.
+Hence this little java utility can be used locally to decrypt & merge many pdf files present in a directory.
 ## Usage
 ```console
 git clone https://github.com/subratamazumder/pdf-utility-java.git
@@ -10,7 +10,8 @@ cd pdf-utility-java
 
 ./gradlew clean build jar
 
-java -jar pdf-utility-1.0-SNAPSHOT.jar /my/directory/which/has/pdffiles
+java -jar pdf-utility-1.0-SNAPSHOT.jar MERGE /my/directory/which/has/pdffiles
+java -jar pdf-utility-1.0-SNAPSHOT.jar DECRYPT /my/directory/which/has/pdffiles password
 ```
 ### Demo
 TBC
@@ -21,11 +22,13 @@ subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ●  ./g
 BUILD SUCCESSFUL in 3s
 3 actionable tasks: 3 executed
 subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ● 
-subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master  java -jar build/libs/pdf-utility-1.0-SNAPSHOT.jar   /Users/subratamazumder/workspace/Payslips
-************************* Welcome To PDF Merging Utility ****************************
+subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master  java -jar build/libs/pdf-utility-1.0-SNAPSHOT.jar MERGE /Users/subratamazumder/workspace/Payslips
+************************* Welcome To PDF Utility ****************************
 
 Developed by Subrata Mazumder @ https://subratamazumder.github.io
 
+
+************************* MERGE UTILITY ****************************
 Reading directory /Users/subratamazumder/workspace/Payslips
 
 
@@ -59,6 +62,35 @@ subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master 
 
 ```
 
+```
+java -jar build/libs/pdf-utility-1.0-SNAPSHOT.jar DECRYPT /Users/subratamazumder/workspace/Payslips/decrypt pass1234
+
+
+************************* Welcome To PDF Utility ****************************
+
+Developed by Subrata Mazumder @ https://subratamazumder.github.io
+
+
+
+************************* DECRYPT UTILITY ****************************
+Reading directory /Users/subratamazumder/workspace/Payslips/decrypt
+Ignoring !!! paySlip_195881_July2019.pdf, not an encrypted pdf
+Ignoring !!! paySlip_195881_April2019.pdf, not an encrypted pdf
+Ignoring !!! paySlip_195881_December2019-decrypted.pdf, previously decrypted pdf
+paySlip_195881_December2019.pdf decrypted successfully :) :)
+Ignoring !!! paySlip_195881_August2019.pdf, not an encrypted pdf
+
+
+************************* SUMMARY ****************************
+Total no of pdf files-5
+Total no of files decrypted-1
+Total no of files ignored-4
+
+*************************************************************
+
+Total Execution Time (ms)-257
+
+```
 ### Contribute
 
 Feel free to fork and raise PR with sensible commit & change description

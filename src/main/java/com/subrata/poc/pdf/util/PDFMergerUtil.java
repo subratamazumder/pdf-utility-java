@@ -1,4 +1,4 @@
-package com.subrata.poc.pdf;
+package com.subrata.poc.pdf.util;
 
 import org.apache.pdfbox.io.MemoryUsageSetting;
 import org.apache.pdfbox.multipdf.PDFMergerUtility;
@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static com.subrata.poc.pdf.LoggerUtil.*;
+import static com.subrata.poc.pdf.util.LoggerUtil.*;
 
 public class PDFMergerUtil {
     private static final String TRAILING_FILE_NAME = "Auto-Merged.pdf";
