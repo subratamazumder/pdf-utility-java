@@ -1,7 +1,9 @@
 # pdf-utility-java
 Very often we need to decrypt & merge sensitive pdf files (e.g.; payslips, tax return, medical report etc) into one big pdf for an easy upload. 
 While using online pdf decrypter or joiner may not be safe and could cause fraud in the future.
-Hence this little java utility can be used locally to decrypt & merge many pdf files present in a directory.
+Hence this little java utility can be used locally to do the followings.
+- Merge many pdf files into a single pdf
+- Decrypt many pdf files given a password
 ## Usage
 ```console
 git clone https://github.com/subratamazumder/pdf-utility-java.git
