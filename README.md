@@ -12,8 +12,8 @@ cd pdf-utility-java
 
 ./gradlew clean build jar
 
-java -jar pdf-utility-1.0-SNAPSHOT.jar MERGE /my/directory/which/has/pdffiles
-java -jar pdf-utility-1.0-SNAPSHOT.jar DECRYPT /my/directory/which/has/pdffiles password
+java -jar ./build/libs/pdf-utility-2.0-SNAPSHOT.jar MERGE /my/directory/which/has/pdffiles
+java -jar ./build/libs/pdf-utility-2.0-SNAPSHOT.jar DECRYPT /my/directory/which/has/pdffiles password
 ```
 ### MERGE - Sample Output
 
