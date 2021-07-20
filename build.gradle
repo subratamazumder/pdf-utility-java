@@ -20,7 +20,7 @@ jar {
     manifest {
         attributes(
                 'Created-By': 'Subrata Mazumder @ https://subratamazumder.github.io',
-                'Implementation-Title': 'PDF Merge Utility utilising apache pdfbox '+ pdfBoxVersion,
+                'Implementation-Title': 'PDF Merge & Decrypt Utility utilising apache pdfbox '+ pdfBoxVersion,
                 'Implementation-Version': version,
                 'Implementation-URL': 'https://github.com/subratamazumder/pdf-utility-java',
                 'Main-Class': 'com.subrata.poc.pdf.Main'
