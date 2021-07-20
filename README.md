@@ -1,6 +1,6 @@
 # pdf-utility-java
-Very often we need to decrypt & merge sensitive pdf files (e.g.; payslips, tax return, medical report etc) into one big pdf for easy upload. 
-But using online pdf decrypter or joiner may not be safe and could cause fraud in the future.
+Very often we need to decrypt & merge sensitive pdf files (e.g.; payslips, tax return, medical report etc) into one big pdf for an easy upload. 
+While using online pdf decrypter or joiner may not be safe and could cause fraud in the future.
 Hence this little java utility can be used locally to decrypt & merge many pdf files present in a directory.
 ## Usage
 ```console
@@ -13,9 +13,7 @@ cd pdf-utility-java
 java -jar pdf-utility-1.0-SNAPSHOT.jar MERGE /my/directory/which/has/pdffiles
 java -jar pdf-utility-1.0-SNAPSHOT.jar DECRYPT /my/directory/which/has/pdffiles password
 ```
-### Demo
-TBC
-### Sample Output
+### MERGE - Sample Output
 
 ```console
 subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master ●  ./gradlew clean build jar
@@ -62,7 +60,9 @@ subratas-MacBook-Pro  ~/workspace/pdf-utility-java   master 
 
 ```
 
-```
+### DECRYPT - Sample Output
+
+```console
 java -jar build/libs/pdf-utility-1.0-SNAPSHOT.jar DECRYPT /Users/subratamazumder/workspace/Payslips/decrypt pass1234
 
 
