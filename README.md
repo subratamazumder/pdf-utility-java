@@ -1,8 +1,8 @@
 ![GitHub](https://img.shields.io/github/license/subratamazumder/pdf-utility-java?style=for-the-badge)
 # PDF-Utility-Java
 Very often we need to decrypt, merge & split sensitive pdf files (e.g.; payslips, tax return, medical report etc) into one big pdf for an easy upload. 
-While using online pdf decrypter or joiner may not be safe and could cause fraud in the future.
-Hence this little java utility can be used locally to do the followings.
+While using similar free online or paid tool may not be safe and could cause fraud in the future.
+Hence this little java utility can be used by developers locally to do the followings.
 - Merge many pdf files into a single pdf
 - Split many pdf files into a many pdf
 - Decrypt many pdf files given a password
