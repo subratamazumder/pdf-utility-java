@@ -1,9 +1,10 @@
 ![GitHub](https://img.shields.io/github/license/subratamazumder/pdf-utility-java?style=for-the-badge)
 # PDF-Utility-Java
-Very often we need to decrypt & merge sensitive pdf files (e.g.; payslips, tax return, medical report etc) into one big pdf for an easy upload. 
+Very often we need to decrypt, merge & split sensitive pdf files (e.g.; payslips, tax return, medical report etc) into one big pdf for an easy upload. 
 While using online pdf decrypter or joiner may not be safe and could cause fraud in the future.
 Hence this little java utility can be used locally to do the followings.
 - Merge many pdf files into a single pdf
+- Split many pdf files into a many pdf
 - Decrypt many pdf files given a password
 ## Usage
 ```console
@@ -15,6 +16,8 @@ cd pdf-utility-java
 
 java -jar ./build/libs/pdf-utility-2.0-SNAPSHOT.jar MERGE /my/directory/which/has/pdffiles
 java -jar ./build/libs/pdf-utility-2.0-SNAPSHOT.jar DECRYPT /my/directory/which/has/pdffiles password
+java -jar ./build/libs/pdf-utility-2.0-SNAPSHOT.jar DECRYPT /my/directory/which/has/pdffiles password
+java -jar ./build/libs/pdf-utility-3.0-SNAPSHOT.jar SPLIT /my/directory/which/has/pdffiles <splitAtPage, e.g.; 1>
 ```
 ### MERGE - Sample Output
 
@@ -93,6 +96,40 @@ Total no of files ignored-4
 
 Total Execution Time (ms)-257
 
+```
+### SPLIT - Sample Output
+```console
+java -jar /Users/subratamazumder/workspace/pdf-utility-java/build/libs/pdf-utility-3.0-SNAPSHOT.jar SPLIT /Users/subratamazumder/workspace/marksheet/split 4
+
+
+************************* Welcome To PDF Utility ****************************
+
+Developed by Subrata Mazumder @ https://subratamazumder.github.io
+
+
+
+************************* SPLIT UTILITY ****************************
+Reading directory /Users/subratamazumder/workspace/marksheet/split
+
+
+Reading directory /Users/subratamazumder/workspace/marksheet/split
+SubrataMazumder_00xxxx_MarkSheet.pdf splitted successfully :) :)
+
+
+************************* SUMMARY ****************************
+Total no of pdf files-1
+Total no of files splitted-1
+Total no of files ignored-0
+
+*************************************************************
+
+Total Execution Time (ms)-488
+
+ll
+total 27816
+-rw-r--r--  1 subratamazumder  staff   2.8M  9 Oct 16:44 SubrataMazumder_00xxxx_MarkSheets-1-Splitted.pdf
+-rw-r--r--  1 subratamazumder  staff   3.9M  9 Oct 16:44 SubrataMazumder_00xxxx_MarkSheets-2-Splitted.pdf
+-rw-r--r--@ 1 subratamazumder  staff   6.9M  9 Oct 16:30 SubrataMazumder_00xxx_MarkSheets.pdf
 ```
 ### Contribute
 
