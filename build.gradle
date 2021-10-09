@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'subrata-poc'
-version '2.0-SNAPSHOT'
+version '3.0-SNAPSHOT'
 def pdfBoxVersion = '2.0.19'
 sourceCompatibility = 1.8
 
