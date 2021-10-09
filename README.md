@@ -131,6 +131,14 @@ total 27816
 -rw-r--r--  1 subratamazumder  staff   3.9M  9 Oct 16:44 SubrataMazumder_00xxxx_MarkSheets-2-Splitted.pdf
 -rw-r--r--@ 1 subratamazumder  staff   6.9M  9 Oct 16:30 SubrataMazumder_00xxx_MarkSheets.pdf
 ```
+
+### Publish New Version
+```console
+export GITHUB_TOKEN=xxxxxx
+export GITHUB_USERNAME=xxxxxx
+./gradlew publish
+
+```
 ### Contribute
 
 Feel free to fork and raise PR with sensible commit & change description
